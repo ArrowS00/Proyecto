@@ -1,0 +1,430 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+/* Estilos para el contenedor del encabezado */
+#header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0%;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+/*ViajayExplora*/
+
+/* Estilos para el área de inicio de sesión */
+
+.usuario img:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 5px;
+    border-bottom: 0;
+    color: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+/* Estilos para la barra de navegación */
+.div-nav-general {
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200%;
+    background-color: #ffffff;
+    padding: 10px 5%;
+}
+
+.div-nav ul {
+    margin-top: 10px;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-nav ul li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.div-nav ul li a {
+    font-family: "Roboto Slab", serif;
+    position: relative;
+    color: #444;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+
+.div-nav ul li a:before {
+    color: black;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.div-nav ul li a:hover {
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
+}
+
+.div-nav ul li a:hover:before {
+    color: #ffffff;
+}
+
+/*Menu desplegable Usuario estilos*/
+.usuario {
+    position: relative;
+    display: inline-block;
+    padding: 10px 60px 10px 0px;
+    cursor: pointer;
+}
+
+.menu-usuario {
+    display: none;
+    position: absolute;
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+    border-left: 1px solid rgba(128, 128, 128, 0.5);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    background-color: #ffffff;
+    top: 100%;
+    right: 0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px;
+    z-index: 1;
+}
+
+.menu-usuario a {
+    color: #444;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.usuario:hover .menu-usuario {
+    display: block;
+}
+
+
+
+/* Estilos para el área de inicio de sesión */
+.inicio_sesion {
+    display: flex;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 10px;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    width: 50%;
+  }
+
+
+/*Estilo centro web*/
+body {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.div-general {
+    flex: 1 0 auto;
+}
+
+#div-1 {
+    position: relative;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 750px;
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+    border-left: 1px solid rgba(128, 128, 128, 0.5);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    background-color: #ffffff50;
+}
+
+
+.div-usuario {
+    display: flex;
+    align-items: center ;
+    text-align: left;
+    font-size: 25px;
+    padding: 20px 20px;
+    font-family: "Roboto Slab", serif;
+    text-shadow: 4px 2px 4px rgb(255, 251, 251); 
+    
+}
+
+.titulo h2 {
+    text-align: left;
+    margin-left: 20px;
+    text-shadow: 4px 2px 4px rgb(255, 251, 251);
+}
+
+.logo-web {
+    position: relative;
+    width: 10%;
+    top: 25px;
+    left: 0;
+}
+
+/*Estilos para la tabla*/
+
+.tabla-usuario { 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Slab", serif;
+    padding-top: 10px;
+    width: 100%;   
+}
+
+.tabla-usuario h2 {
+    text-align: center; /* Centra el texto del encabezado */
+    margin-bottom: 10px; /* Agrega un espacio debajo del encabezado */
+    text-shadow: 4px 2px 4px rgb(255, 251, 251);
+}
+
+.tabla {
+    border-collapse: collapse; 
+    border: 3px double black;
+}
+
+.tabla thead {
+    background-color: #ffffff; 
+    width: 100%;
+}
+
+.tabla th, .tabla td {
+    border: 1px solid black; 
+    padding: 10px; 
+}
+
+.tabla td {
+    background-color: #a8dadc;
+    font-size: 20px;
+    overflow: auto;
+}
+
+
+/* Estilos para el Perfil */
+
+.perfil-usuario {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+
+.cargar-avatar {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px;
+    font-family: "Roboto Slab", serif;
+    align-items: flex-start;
+}
+
+.cargar-avatar h2{
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    text-shadow: 4px 2px 4px rgb(255, 251, 251); 
+}
+
+.avatar{
+    text-align: center;
+    margin-left: 0;
+    margin-right: 10%;
+    padding-bottom: 90px; 
+}
+
+.boton-avatar {
+    display: none;
+}
+
+.perfil-1 img { 
+    width: 50%;
+    height: auto;
+    background-color: #424242;
+    border-radius: 20%;
+    margin-left: 10%;
+    margin-right: 0;
+}
+
+.caja2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20%;
+    padding-left: 10%;
+    margin-right: 60px;
+    font-family: "Roboto Slab", serif;
+    align-items: flex-start; 
+}
+
+
+
+
+.boton_editar {
+    width: 100px;
+    background: black;
+    padding: 5px 20px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+  
+.boton_editar:hover {
+    background: white;
+    color: black;
+}
+
+
+/*Estilos para los iconos*/
+
+.icono-ajustes span {
+    display: none;
+    color: #000000;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 55px;  
+}
+
+.icono-ajustes img {
+    margin-left: 50px;
+    filter: invert(82%) sepia(1%) saturate(1610%) hue-rotate(329deg) brightness(50%) contrast(80%); 
+}
+.icono-ajustes img:hover {
+    transform: scale(1.1); 
+}
+
+
+.icono-editar img {
+    filter: invert(30%) sepia(50%) saturate(6000%) hue-rotate(20000deg);
+}
+.icono-editar img:hover {
+    transform: scale(1.1); 
+}
+
+
+.icono-borrar img {
+    filter: invert(30%) sepia(30%) saturate(6000%) hue-rotate(0deg);
+}
+.icono-borrar img:hover {
+    transform: scale(1.1); 
+}
+
+/*Estilos alerta y registro completo*/
+.alerta{
+    position: absolute;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    top: 5%;
+    left: 40%;
+    text-shadow: 4px 2px 4px rgb(255, 255, 255);
+}
+  
+  
+.completo{
+    position: absolute;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    top: 5%;
+    left: 40%;
+    text-shadow: 4px 2px 4px rgb(255, 255, 255);
+}
+
+
+/*Fonde de la Web*/
+.fondo-mar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ajusta la imagen para cubrir completamente el contenedor */
+    z-index: -2;
+    /* Coloca la imagen del mar detrás de los elementos div-1 y div-2 */
+}
+
+
+/*Footer*/
+
+#div-footer {
+    flex-shrink: 0;
+    background-color: #ffffff00;
+    color: #444;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contenedor-footer {
+    text-align: center;
+}
+
+/* Media queries para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    #header {
+        padding: 10px 2%;
+        /* Ajustar el padding del contenedor */
+    }
+
+    .div-nav ul li {
+        margin-right: 5px;
+        /* Reducir el espacio entre elementos */
+    }
+
+    .logo img {
+        margin-left: 2%;
+        /* Ajustar el margen del logo */
+    }
+
+    .inicio_sesion a {
+        font-size: 14px;
+        /* Reducir el tamaño de fuente */
+    }
+
+    #div-1 {
+        font-size: 24px;
+        /* Reducir el tamaño de fuente */
+        height: 300px;
+        /* Reducir la altura */
+    }
+}
