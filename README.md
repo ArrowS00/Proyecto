@@ -1,5 +1,5 @@
-# Proyecto
-Travel and Explore Manager
+# Travel and Explore Manager
+
 
 Travel and Explore Manager is a web application designed to help users organize and remember the countries and cities they have visited. It allows users to create collections of their travels, share experiences with others, and explore the travel stories of fellow users.
 
